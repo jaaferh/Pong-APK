@@ -24,7 +24,7 @@ public class enemy : MonoBehaviour
         {
             // lowercase gameObject refers to this gameObject (the enemy)
             targetPos = Vector3.Lerp(gameObject.transform.position, pongObj.transform.position, Time.deltaTime * speed);
-            playerPos = new Vector3 (Mathf.Clamp(targetPos.x, -2.4F, 2.4F), -4, 0);
+            playerPos = new Vector3 (Mathf.Clamp(targetPos.x, -2.75F, 2.75F), -4, 0);
             gameObject.transform.position = new Vector3(playerPos.x, 4, 0);
         }
     }

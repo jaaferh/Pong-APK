@@ -13,6 +13,6 @@ public class newGame : MonoBehaviour
 
     void OnMouseUp()
     {
-        SceneManager.LoadScene("SampleScene"); // opens the other scene (scene 0)
+        SceneManager.LoadScene("Game"); // opens the other scene (scene 0)
     }
 }
