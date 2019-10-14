@@ -6,7 +6,6 @@
     "com.unity.package-manager-ui": "2.0.7",
     "com.unity.purchasing": "2.0.3",
     "com.unity.textmeshpro": "1.4.1",
-    "uni-git": "https://github.com/simeonradivoev/UniGit.git",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
     "com.unity.modules.assetbundle": "1.0.0",
@@ -37,11 +36,5 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  },
-  "lock": {
-    "uni-git": {
-      "hash": "494d6981a5a52e60c384ff5d72327764338dddf2",
-      "revision": "HEAD"
-    }
   }
 }
